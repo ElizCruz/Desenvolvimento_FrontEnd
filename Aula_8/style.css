@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-weight: 300;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 2.2em;
+    color: #414141;
+}
+
+header {
+    background-color: #e73103;
+}
+
+section,
+footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(236, 236, 236);
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #303030;
+}
+
+
+#pacotes figure img {
+    width: 100%; /* Definindo a largura como 100% para manter a proporção */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 300px; /* Largura máxima para manter o tamanho controlado */
+    display: block; /* Certifica-se de que as imagens não tenham margens externas */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+}
+
+
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

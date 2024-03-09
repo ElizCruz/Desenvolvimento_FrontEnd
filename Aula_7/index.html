@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens Eliz e Marcio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Album de fotos</a></li>
+                <li><a href="#">Orçamento</a></li>
+            </ul>
+        </nav>
+        <h1> Venha conhecer as nossas viagens <3< /h1>
+    </header>
+    <section id="pacotes">
+        <h2>Destinos dos sonhos</h2>
+        <p>
+            Nossa primeira experiência foi a cidade de Gramado, com uma vista linda e de tirar o folego.
+            <br><br>
+            Nossos próximos destinos são Catitólio MG e Foz do Iguaçu PR.
+            <br><br>
+            <a href="https://www.lipsum.com/feed/html">Link</a>
+            <hr>
+        </p>
+        <div class="figuras">
+            <figure>
+                <img src="img/Gramado3.jpg" alt="Visita em Gramado RS">
+                <figcaption>Gramado</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Foz-do-Iguaçu.jpg" alt="Cascatas do Iguaçu">
+                <figcaption>Cascatas</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Capitólio.jpg" alt="Planalto em Capitólio">
+                <figcaption>Capitólio</figcaption>
+            </figure>
+            <br><br>
+        </div>
+    </section>
+    <section>
+        <h2>Orçamento</h2>
+        <form method="GET" action="">
+
+            <fieldset>
+                <legend>Seus dados</legend>
+                <label>Nome</label><br>
+                <input type="text" name="Nome"><br><br>
+
+                <label>E-mail</label><br>
+                <input type="email" required name="E-mail"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend> Dados da viagem</legend>
+                <label>Data de ida</label><br>
+                <input type="date" name="dataIda"><br><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" name="quantPessoas"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend><br>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="Passagens">Compra de Passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de Hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veículos" value="Veículos"> Reseva de veículos
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha o prazo de pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista" selected>Á vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x">10x com juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentário</label><br>
+            <textarea rows="5" nome="Comentário"></textarea><br><br>
+
+            <button>Salvar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Elizandra</p>
+    </footer>
+</body>
+
+</html>
